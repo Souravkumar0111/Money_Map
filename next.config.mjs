@@ -5,6 +5,7 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "randomuser.me",
+           pathname: "/**", // allow all images under /api/portraits
       },
     ],
   },
